@@ -1,0 +1,57 @@
+/*Raisa Esther Neris De la Rosa
+2018-6322*/
+
+<!DOCTYPE html>
+<html lang= "es">
+
+<title>Agenda</title>
+
+<body>
+<form action= "" method="POST" id="form">
+<div class= "form">
+    <h1>Cliente - agenda de contactos</h1>
+
+    <div class= "grupo">
+        <input type="text" required><span class= "barra"></span>
+        <label for=""> Nombre:</label>
+    </div>
+    <div class= "grupo">
+        <input type="text" required><span class= "barra"></span>
+        <label for=""> Telefono:</label>
+    </div>
+    <div class= "grupo">
+        <input type="text" required><span class= "barra"></span>
+        <label for=""> Correo:</label>
+    </div>
+    <center>
+        <button type="submit"> Agregar</button>
+    </center>
+</div>
+</form>
+
+<div class="card-body">
+    <div class="table-responsive">
+        <table id="userList" class="table table-bordered table-hover table-striped"></table>
+        <thead class= "table-light">
+            <tr>
+                <th scope= "col">#</th>
+                <th scope= "col">Nombre:</th>
+                <th scope= "col">Telefono:</th>
+                <th scope= "col">Correo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope= "col">#</th>
+                <td>Raisa Esther Neris De la Rosa</td>
+                <td>8298740441</td>
+                <td>20186322@itla.edu.do</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<center>
+    <button type="delete"> Borrar</button>
+</center>
+</body>
+</html>
